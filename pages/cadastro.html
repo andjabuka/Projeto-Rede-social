@@ -4,31 +4,30 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Cadastro</title>
-	<link rel="stylesheet" href="/static/cadastro/estilo.css">
+	<link rel="stylesheet" href="../styles/header.css">
+	<link rel="stylesheet" href="../styles/cadastro.css">
 
 </head>
 <body>
 
 	<section class="main">
 		<header>
-			<div class="center menu-container">
-				<div class="logo">
-					<h3><i class="fa-solid fa-scroll"></i>Cola Fotos</h3>
-				</div>
-				<div class="menu">
-					<a class="active-menu" href="../index.html">Home </a>
-					<a href="../Login/login.html">Iniciar sessão</a>
-				</div>
 		
-			</div><!--center-->
+			<div class="logo">
+                <img src="../assets/images/logo.png" alt="Logo Cola Fotos">
+			</div>
+
+			<div class="menu">
+                <ul>
+				    <li><a href="../index.html">Voltar </a></li>
+				    <li><a href="./Login/login.html">Iniciar sessão</a></li>
+                </ul>
+			</div>
+		
 		</header>
 		
 		<div class="form">
-			<form action="#">
-				<div class="form-header"></div>
-					<div class="title">
-						<h1>Faça seu Cadastro !</h1>
-					</div>
+			<h1>Faça seu Cadastro !</h1>
 						
 				<div class="input-group">
 					<div class="input-box">
@@ -60,12 +59,12 @@
 						<label for="password">Confirme sua senha</label>
 						<input id="password" type="password" name="Confirmpasswordd" placeholder="Confirme sua Senha" required>
 					</div>
-	
+				</div>	
 				<div class="gender-inputs">
 					<div class="gender-title">
 						<h4>Gênero</h4>
 					</div>
-	
+				<br>	
 				<div class="gender-group">
 					<div class="gender-input">
 						<input type="radio" id="female" name="gender">
